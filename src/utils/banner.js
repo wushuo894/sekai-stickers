@@ -1,10 +1,9 @@
 function bannerViewed() {
-  const viewed = Boolean(localStorage.getItem("banner-viewed-3"));
-  return viewed;
+  return Boolean(localStorage.getItem("banner-viewed-3"));
 }
 
 function setBannerViewed() {
-  localStorage.setItem("banner-viewed-3", true);
+  localStorage.setItem("banner-viewed-3", "false");
 }
 
 export { bannerViewed, setBannerViewed };

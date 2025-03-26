@@ -25,3 +25,7 @@ yarn-error.log*
 # dev
 src/*.dev.jsx
 src/*.old
+
+.idea
+package-lock.json
+pnpm-lock.yaml
