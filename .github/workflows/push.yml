@@ -15,7 +15,7 @@ jobs:
           npm install pnpm -g
           pnpm install
           pnpm run build
-          echo "pjsk.wushuo.top" > bulid/static/CNAME
+          echo "pjsk.wushuo.top" > build/static/CNAME
       - name: Deploy
         uses: s0/git-publish-subdir-action@develop
         env:
