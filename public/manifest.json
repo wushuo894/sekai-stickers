@@ -22,7 +22,7 @@
     "background_color": "#121212",
     "display": "standalone",
     "description": "Make your own Project sekai stickers!",
-    "start_url": "https://st.ayaka.one/",
+    "start_url": ".",
     "dir": "ltr",
     "lang": "en",
     "orientation": "portrait",
